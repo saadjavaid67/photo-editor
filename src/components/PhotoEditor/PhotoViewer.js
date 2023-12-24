@@ -16,7 +16,7 @@ const PhotoViewer = ({ file, imageData, imageSize }) => {
         const canvas = canvasRef.current;
         var image = canvas.toDataURL("image/png", 1.0).replace("image/png", "image/octet-stream");
         var link = document.createElement('a');
-        link.download = "we-made-it.png";
+        link.download = "mzy_ka_h_na_:D.png";
         link.href = image;
         link.click();
     }
