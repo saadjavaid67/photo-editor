@@ -12,7 +12,7 @@ const Footer = () => {
                             <use xlinkHref='#bootstrap' />
                         </svg>
                     </a>
-                    <span className='text-muted'>© 2021 Company, Inc</span>
+                    <span className='text-muted'>© 2023 All Rights Reserved :'D</span>
                 </div>
                 <ul className='nav col-md-4 justify-content-end list-unstyled d-flex'>
                     <li className='ms-3'>

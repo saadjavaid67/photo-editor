@@ -52,7 +52,6 @@ function App() {
     <Layout>
       {file ?
 
-
         (
           <div className=" mt-2">
             <ImageParser
@@ -71,7 +70,7 @@ function App() {
             }
           </div>
         ) :
-        (<div className="my-4 d-flex justify-content-center">
+        (<div className="my-4 d-flex flex-column justify-content-center">
           <span className="fw-bold me-2">Select your image:</span>
           <input type="file" onChange={handleChange} />
         </div>)
