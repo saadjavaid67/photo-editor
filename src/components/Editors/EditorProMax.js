@@ -1,27 +1,19 @@
 import React, { useState, useRef } from 'react';
 import '@pqina/pintura/pintura.css';
-
-// Import the editor default configuration
 import { getEditorDefaults } from '@pqina/pintura';
-
-// Import the editor component from `react-pintura`
 import { PinturaEditor } from '@pqina/react-pintura';
 
-// get default properties
 const editorConfig = getEditorDefaults();
 
 const downloadFile = (file) => {
-    // Create a hidden link and set the URL using createObjectURL
     const link = document.createElement('a');
     link.style.display = 'none';
     link.href = URL.createObjectURL(file);
     link.download = file.name;
 
-    // We need to add the link to the DOM for "click()" to work
     document.body.appendChild(link);
     link.click();
 
-    // To make this work on Firefox we need to wait a short moment before clean up
     setTimeout(() => {
         URL.revokeObjectURL(link.href);
         link.parentNode.removeChild(link);
