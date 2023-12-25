@@ -22,7 +22,7 @@ const EditorSelector = ({ setEditor }) => {
                 <h1 className='text-center mt-5 pt-5'>Behind the Curtain: The Brilliant Minds Crafting Magic</h1>
                 <div className="row justify-content-center">
 
-                    <div className="col-md-2 mb-2 text-center">
+                    <div className="col-md-2 col-6 mb-2 text-center">
                         <div className="card overflow-hidden rounded-4 h-100">
                             <div className="card-body justify-content-between d-flex flex-column p-0 pb-2">
                                 <img src={image_female} className='mw-100' alt="" />
@@ -33,7 +33,7 @@ const EditorSelector = ({ setEditor }) => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-2 mb-2 text-center">
+                    <div className="col-md-2 col-6 mb-2 text-center">
                         <div className="card overflow-hidden rounded-4 h-100">
                             <div className="card-body justify-content-between d-flex flex-column p-0 pb-2">
                                 <img src={image_female} className='mw-100' alt="" />
@@ -44,7 +44,7 @@ const EditorSelector = ({ setEditor }) => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-2 mb-2 text-center">
+                    <div className="col-md-2 col-6 mb-2 text-center">
                         <div className="card overflow-hidden rounded-4 h-100">
                             <div className="card-body justify-content-between d-flex flex-column p-0 pb-2">
                                 <img src={image_female} className='mw-100' alt="" />
@@ -55,7 +55,7 @@ const EditorSelector = ({ setEditor }) => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-2 mb-2 text-center">
+                    <div className="col-md-2 col-6 mb-2 text-center">
                         <div className="card overflow-hidden rounded-4 h-100 ">
                             <div className="card-body justify-content-between d-flex flex-column p-0 pb-2">
                                 <img src={image_saad} className='mw-100' alt="" />

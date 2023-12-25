@@ -101,11 +101,11 @@ const PhotoFilters = ({ file, setFile, filterHandler, imgData }) => {
                     <h4>Filters</h4>
                 </div>
                 <div className="col-6 text-end">
-                    <button onMouseDown={() => {setTempFilters(filters);setFilters(defaultFilters)} } onMouseUp={() => setFilters(tempFilters)}  className="btn btn-success me-2" title="Right">
-                    <i class="fa-solid fa-code-compare"></i> Compare
+                    <button onTouchStart={() => {setTempFilters(filters);setFilters(defaultFilters)} } onMouseDown={() => {setTempFilters(filters);setFilters(defaultFilters)} } onMouseUp={() => setFilters(tempFilters)} onTouchEnd={() => setFilters(tempFilters)}  className="btn btn-sm btn-success me-2" title="Right">
+                    <i class="fa-solid fa-code-compare"></i> <span className='d-none d-md-block'>Compare</span>
                     </button>
-                    <button onClick={() => setFilters(defaultFilters)} className="btn btn-success" title="Right">
-                        <i className="fa-solid fa-refresh"></i> Reset
+                    <button onClick={() => setFilters(defaultFilters)} className="btn btn-success btn-sm" title="Right">
+                        <i className="fa-solid fa-refresh"></i> <span className='d-none d-md-block'>Reset</span>
                     </button>
                 </div>
             </div>
