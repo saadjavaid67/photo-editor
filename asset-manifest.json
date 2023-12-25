@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/photo-editor/static/css/main.6775cd61.css",
-    "main.js": "/photo-editor/static/js/main.76396f03.js",
+    "main.js": "/photo-editor/static/js/main.b1115fce.js",
     "static/js/787.58361557.chunk.js": "/photo-editor/static/js/787.58361557.chunk.js",
     "static/media/saad.jpeg": "/photo-editor/static/media/saad.59cbc17d8470c3906da5.jpeg",
     "static/media/female.png": "/photo-editor/static/media/female.ff88762ecdbb66b9d517.png",
     "index.html": "/photo-editor/index.html",
     "main.6775cd61.css.map": "/photo-editor/static/css/main.6775cd61.css.map",
-    "main.76396f03.js.map": "/photo-editor/static/js/main.76396f03.js.map",
+    "main.b1115fce.js.map": "/photo-editor/static/js/main.b1115fce.js.map",
     "787.58361557.chunk.js.map": "/photo-editor/static/js/787.58361557.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6775cd61.css",
-    "static/js/main.76396f03.js"
+    "static/js/main.b1115fce.js"
   ]
 }
