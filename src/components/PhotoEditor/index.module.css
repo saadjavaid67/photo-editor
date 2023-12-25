@@ -5,7 +5,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 500px;
+    height: 100%;
     margin-bottom: 1rem;
     padding: 0.5rem;
     overflow: hidden;
@@ -14,7 +14,8 @@
 .ImageWrapper {
     margin: auto;
     width: 100%;
-    max-width: 500px;
+    /* max-width: 500px; */
+    height: 93%;
 }
 
 .ToolsContainer {
